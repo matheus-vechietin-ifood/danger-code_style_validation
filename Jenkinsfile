@@ -1,9 +1,8 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        git 'https://github.com/matheus-vechietin-ifood/danger-code_style_validation'
         sh 'echo "RUN BUILD"'
       }
     }
