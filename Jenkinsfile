@@ -6,9 +6,9 @@ pipeline {
         sh 'echo "AMBIENTE"'
       }
     }
-    stage('Testes Unit·rios') {
+    stage('Testes Unitarios') {
       parallel {
-        stage('Testes Unit·rios') {
+        stage('Testes Unit√°rios') {
           steps {
             sh 'echo "UNIT TEST"'
           }
